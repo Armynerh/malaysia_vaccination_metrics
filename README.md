@@ -147,7 +147,9 @@ If you like this project Give Me a Star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for the learning Experience
+I will like to thank Microverse for the learning Experience.
+
+I will also like to give credit for the original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) as recomended in the [The Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

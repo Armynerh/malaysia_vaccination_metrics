@@ -64,13 +64,14 @@ const Metrics = () => {
       </div>
       <div className="d-flex flex-wrap m-auto justify-content-around">
         {met.map((metric, i) => (
-          <div key={metric.total} className="col-md-4 col-lg-3 p-5 m-3 shadow" style={i % 2 === 0 ? { backgroundColor: '#4268B0' } : { backgroundColor: '#4063A7;' }}>
+          <div key={metric.total} className="col-md-4 col-lg-2  p-3 m-3 shadow" style={i % 2 === 0 ? { backgroundColor: '#4268B0' } : { backgroundColor: '#4063A7;' }}>
             <Link to={`/metric/${metric.total}`}>
-              <div className="w-100 text-light text-center p-3 fw-bold text-uppercase fs-3">
+              <div className="w-100 text-light text-center text-wrap p-3 fw-bold text-break text-uppercase fs-4">
                 <div>{metric.stateName}</div>
-                <div className="d-flex">
-                  <p>Total:</p>
-                  <span className="mx-2">{metric.total}</span>
+                <div className="d-flex ">
+                  <p>
+                    {`Total-    ${metric.total}`}
+                  </p>
                 </div>
               </div>
             </Link>
