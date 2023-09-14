@@ -2,7 +2,7 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
 
-  <h3><b>Job Metrics App</b></h3>
+  <h3><b>Malaysia COVID-19 Vaccination Metrics App</b></h3>
 
 </div>
 
@@ -31,10 +31,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Job Metrics App <a name="about-project"></a>
+# 📖 Malaysia COVID-19 Metrics App <a name="about-project"></a>
 
 
-**[Job Metrics App]**  is a project to consolidate your knowledge about React, components, props, state, and hooks, by building a react bookstore CMS
+**[Malaysia COVID-19 Vaccination Metrics App]**  is a project that displays infomation about vaccination across states in Malaysia using React and Redux.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,14 +48,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **List Companies**
-- **View Dtails**
+- **List States**
+- **View Details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-
+[Live Demo](https://malaysia-metrics.onrender.com/)
 
 
 <!-- GETTING STARTED -->
