@@ -8,8 +8,9 @@ const Metrics = () => {
   const metrics = useSelector((state) => state.metrics.metrics);
   const status = useSelector((state) => state.metrics.status);
   const error = useSelector((state) => state.metrics.error);
+  console.log(status);
   const dispatch = useDispatch();
-  const met = metrics.filter((metric) => metric.stateName.toLowerCase().includes(query));
+  const met = metrics.filter((met) => met.stateName.toLowerCase().includes(query.toLowerCase()));
   useEffect(() => {
     if (status === 'idle') {
       dispatch(fetchMetrics());

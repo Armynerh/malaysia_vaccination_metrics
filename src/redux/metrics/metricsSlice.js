@@ -23,7 +23,7 @@ const metricsSlice = createSlice({
       })
       .addCase(fetchMetrics.fulfilled, (state, action) => {
         state.status = 'succeeded';
-        state.metrics = action.payload.modifiedData;
+        state.metrics = action.payload;
       })
       .addCase(fetchMetrics.rejected, (state, action) => {
         state.status = 'failed';
